@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+body {
+  background-color: #f2f2f2;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  fill: gold;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2 {
+  color: #260d40;
+}
+p {
+  font-family: "Noto Sans", sans-serif;
+  color: #737373;
+}
+b {
+  color: #260d40;
+}
+.section-bg {
+  background-color: white;
+}
+.section-dark-bg {
+  background-color: #260d40;
+}
+/* Navigation */
+.navbar-brand {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+/* button */
+.btn-outline {
+  border: 2px solid #f23938;
+}
+.btn-outline:hover {
+  background-color: #f23938;
+  color: white;
+}
+.btn-primary {
+  background-color: #f23938;
+  border: none;
+  text-decoration: none;
+}
+.btn-primary:hover {
+  background-color: gold;
+}
+.hero-bg,
+.navbar {
+  background-color: #260d40;
+}
+.card-img {
+  width: 200px;
+  height: 200px;
+}
+.container-games {
+  display: flex;
+  flex-direction: column;
+}
