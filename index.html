@@ -15,12 +15,18 @@
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>FGCTracker</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">FGCPlayers</a>
+        <img class="logo mx-1" src="img/joystick-svgrepo-com.svg" alt="" />
+        <a class="navbar-brand text-light" href="#">FGCPlayers</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -32,174 +38,217 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <button class="btn btn-primary">Login</button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <button class="btn btn-outline btn-lg text-light">LOGIN</button>
         </div>
       </div>
     </nav>
-    <header>
-      <h1>We are the Community</h1>
-      <p>Join the largest Fighting Game Community</p>
-      <a class="btn btn-primary" href="currentplayers.html">Get Started</a>
-    </header>
-    <main>
-      <section>
-        <h2>What is the FGC?</h2>
-        <p>
-          FGCPlayers or Fighting Game Community Players is application design
-          for one person: To be the central hub of information within the
-          fighting game community. Its all in one platform provides news on the
-          latest news around the FGC, the most popular fighting games, and
-          tracking progressing within the specific games
+    <!-- Hero -->
+    <div class="px-4 py-4 my-0 text-center hero-bg">
+      <h1 class="display-5 fw-bold hero-title text-center text-light">
+        We Are The Community
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4 text-light">
+          Join the largest Fighting Game Community
         </p>
-        <div style="display: flex">
-          <div
-            style="
-              display: block;
-              width: 200px;
-              height: 200px;
-              background-color: dodgerblue;
-            "
-          ></div>
-          <div
-            style="
-              display: block;
-              width: 200px;
-              height: 200px;
-              background-color: tomato;
-            "
-          ></div>
-          <div
-            style="
-              display: block;
-              width: 200px;
-              height: 200px;
-              background-color: gold;
-            "
-          ></div>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a class="btn-primary btn-lg px-4 gap-3" href="currentplayers.html"
+            >Get Started
+          </a>
         </div>
-      </section>
-      <section>
-        <h1>Articles</h1>
-        <p>Important Articles around the community</p>
-        <!-- Display articles in Grid Layout 1fr for image and 1 fr for content  -->
-        <article>
-          <h1>Evo 2021 Results!</h1>
-          <p>
-            <b> This story has been updated with final results. </b>
-            played under different circumstances than we’d normally be used to,
-            Evo 2021 is upon us and will be a grand event even whilst being an
-            online-only affair.
+      </div>
+    </div>
+
+    <!-- About Us -->
+    <section class="section-bg">
+      <div
+        class="
+          pt-2
+          pb-4
+          d-flex
+          my-3
+          justify-content-center
+          align-items-lg-center
+        "
+      >
+        <div class="p-lg-4">
+          <h2 class="text-center pb-3 h2">What is the FGC?</h2>
+          <p class="">
+            FGCPlayers or Fighting Game Community Players is application design
+            for one person: To be the central hub of information within the
+            fighting game community. Its all in one platform provides news on
+            the latest news around the FGC, the most popular fighting games, and
+            tracking progressing within the specific games
           </p>
-          <div
-            style="
-              display: block;
-              width: 200px;
-              height: 200px;
-              background-color: dodgerblue;
-            "
-          ></div>
-        </article>
-        <article>
-          <h1>Evo 2021 Results!</h1>
-          <p>
-            <b> This story has been updated with final results. </b>
-            played under different circumstances than we’d normally be used to,
-            Evo 2021 is upon us and will be a grand event even whilst being an
-            online-only affair.
-          </p>
-          <div
-            style="
-              display: block;
-              width: 200px;
-              height: 200px;
-              background-color: tomato;
-            "
-          ></div>
-        </article>
-        <article>
-          <h1>In-depth visual guide to DBFZ update</h1>
-          <p>
-            <b> This story has been updated with final results. </b>
-            played under different circumstances than we’d normally be used to,
-            Evo 2021 is upon us and will be a grand event even whilst being an
-            online-only affair.
-          </p>
-          <div
-            style="
-              display: block;
-              width: 200px;
-              height: 200px;
-              background-color: gold;
-            "
-          ></div>
-        </article>
-        <button>More -></button>
-      </section>
-        <section><h1>Most Popular Games</h1>
-        <div>
-          <div
-            style="
-              display: block;
-              width: 100px;
-              height: 100px;
-              background-color: tomato;
-            "
-          ></div>
-          <p>Street Fighter V</p>
-          <div
-            style="
-              display: block;
-              width: 100px;
-              height: 100px;
-              background-color: dodgerblue;
-            "
-          ></div>
-          <p>Tekken 7</p>
         </div>
-        <div
-            style="
-              display: block;
-              width: 100px;
-              height: 100px;
-              background-color: goldenrod;
-            "
-          ></div>
-          <p>Mortal Kombat 11</p>
+        <div class="d-none d-lg-block">
+          <div class="d-flex">
+            <div class="">
+              <div class="container">
+                <img
+                  class="img-thumbnail border-0"
+                  src="./img/Combo Breaker.webp"
+                  alt="A Group of people Gathered "
+                />
+              </div>
+            </div>
+            <div class="">
+              <div class="container">
+                <img
+                  class="img-thumbnail border-0"
+                  src="./img/Evo Tournament.jpeg"
+                  alt="Evo Display"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="justify-content-center">
+            <div class="container">
+              <img
+                class="img-thumbnail img-fluid border-0"
+                src="./img/Daigo vs Tokido.jpeg"
+                alt="Daigo vs Tokido"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles -->
+
+    <h1 class="text-center my-5 h1">Articles</h1>
+    <p class="text-center">Important Articles around the community</p>
+
+    <section>
+      <!-- Display articles in Grid Layout 1fr for image and 1 fr for content  -->
+      <article class="section-bg py-5 px-2">
+        <div class="d-lg-flex flex-lg-row-reverse">
+          <div class="col-lg m-lg-2">
+            <h2 class="h2">Evo 2021 Results!</h2>
+            <p>
+              <b> This story has been updated with final results. </b>
+              Played under different circumstances than we’d normally be used
+              to, Evo 2021 is upon us and will be a grand event even whilst
+              being an online-only affair.
+            </p>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <img class="img-thumbnail" src="img/Image 3.png" alt="" />
+          </div>
         </div>
 
-        <div
-            style="
-              display: block;
-              width: 100px;
-              height: 100px;
-              background-color: goldenrod;
-            "
-          ></div>
-          <p>Guilty Gear Strive </p>
+        <div class="d-flex justify-content-end text-lg-end m-lg-4">
+          <a class="link-danger" href="#">Link</a>
         </div>
-      </section>
-      <!-- Display Icon on larger screen remove on small screen -->
-      <section style="display: flex;"><div style="
-        display: block;
-        width: 100px;
-        height: 100px;
-        text-align: center;
-        background-color: goldenrod;
-      "> icon</div>
-      <div> 
-          <div>
-          <h3>Join FGC Newsletter</h3>
-        <p>Subscribe to our weekly newsletter</p></div>
-        <form action="#">
-            <input type="text" placeholder="your email">
-            <button class="btn btn-primary" id="">Submit</button>
-        </form>
+      </article>
+      <article class="section-bg py-5 px-2">
+        <div class="d-lg-flex flex-lg-row-reverse">
+          <div class="col-lg m-lg-3">
+            <h2 class="h2">Evo 2022 Offline Returns!</h2>
+            <p>
+              During the online Evo 2021 tournament that’s happening today, it
+              was revealed that the next Evo event will begin on August 5, 2022
+              and conclude by August 7, 2022. Although this year’s Evo event was
+              made into a series of online tournaments due to the COVID-19
+              pandemic that has persisted throughout 2020 and 2021, the next Evo
+              event is slated to be a return to offline tournaments.
+            </p>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <img class="img-thumbnail" src="img/Image 4.png" alt="" />
+          </div>
         </div>
-      </section>
-    </main>
-    <footer>
-        <p>Copyright FGCPlayers</p>
+
+        <div class="d-flex justify-content-end text-lg-end m-lg-2">
+          <a class="link-danger" href="#">Link</a>
+        </div>
+      </article>
+      <article class="section-bg py-5 px-2">
+        <div class="d-lg-flex flex-lg-row-reverse">
+          <div class="col-lg m-lg-3">
+            <h2 class="h2">In-depth visual guide to DBFZ update</h2>
+            <p>
+              Dragon Ball FighterZ went from hardly mentioned among the wider
+              fighting game community to the talk of the town overnight when the
+              title received its massive balance and system update earlier this
+              week, which pretty much turned everything on its head from what we
+              knew before.
+            </p>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <img class="img-thumbnail" src="img/Image 5.png" alt="" />
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-end text-lg-end m-lg-3">
+          <a class="link-danger" href="#">Link</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section-dark-bg py-lg-5">
+      <h1 class="h1 text-center text-light">Most Popular Games</h1>
+      <div class="d-lg-flex flex-lg-row justify-content-lg-around">
+        <div class="d-flex justify-content-center">
+          <img class="card-img" src="img/Street Fighter V.svg" alt="" />
+        </div>
+        <div class="d-flex justify-content-center">
+          <img class="card-img" src="img/Tekken 7.svg" alt="" />
+        </div>
+        <div class="d-flex justify-content-center">
+          <img class="card-img p-0" src="img/Mortal Kombat 11.svg" alt="" />
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <img class="card-img" src="img/Guilty Gear Strive.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Display Icon on larger screen remove on small screen -->
+    <section
+      class="
+        container-lg
+        bg-white
+        py-4
+        my-5
+        d-lg-flex
+        justify-content-lg-around
+        align-items-lg-center
+      "
+    >
+      <div class="d-none d-lg-block">
+        <img
+          class="img-thumbnail border-0"
+          src="img/arcademachine.svg"
+          alt=""
+        />
+      </div>
+      <div>
+        <div class="container">
+          <h2 class="h2 text-center">Join FGC Newsletter</h2>
+          <p class="text-center">Subscribe to our weekly newsletter</p>
+        </div>
+        <div class="container d-flex justify-content-center">
+          <form action="#" class="">
+            <input type="text" placeholder="Your Email" />
+            <button class="btn btn-primary" id="submit">
+              <i class="bi bi-arrow-up-right-square-fill"></i>
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="section-dark-bg py-5">
+      <p class="text-center text-white">&#169; FGCPlayers</p>
     </footer>
   </body>
 </html>

@@ -15,12 +15,14 @@
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Current Players</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <body class="section-dark-bg">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">FGCPlayers</a>
+        <img class="logo mx-1" src="img/joystick-svgrepo-com.svg" alt="" />
+        <a class="navbar-brand text-light" href="index.html">FGCPlayers</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -32,48 +34,24 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <button class="btn btn-primary">Login</button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <button class="btn btn-outline btn-lg text-light">LOGIN</button>
         </div>
       </div>
     </nav>
-    <!-- on click a modal window pops and adds player to to the list  -->
-    <header>
-      <h1>Current Players</h1>
-      <button>Add a Player</button>
+    <div class="container py-5">
+      <h1 class="text-light text-center">Current Players</h1>
+      <div class="container d-flex justify-content-center">
+        <button class="btn btn-primary">Add a Player</button>
+      </div>
     </header>
-    <main>
-      <section>
-        <div class="card w-50">
-          <div class="d-flex">
-            <div>
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p>
-            </div>
-
-            <div>
-              <img
-                src=""
-                style="
-                  width: 50px;
-                  height: 50px;
-                  border-radius: 50%;
-                  background-color: green;
-                "
-                alt=""
-              />
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-center">
-            <button href="#" class="btn btn-success">Update</button>
-            <button href="#" class="btn btn-danger">Delete</button>
-          </div>
-        </div>
-      </section>
-    </main>
+    </div>
+   
+    
+    <!-- on click a modal window pops and adds player to to the list  -->
+    <main></main>
   </body>
 </html>
